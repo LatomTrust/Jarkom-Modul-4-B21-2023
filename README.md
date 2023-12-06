@@ -70,8 +70,8 @@ Agar semua subnet dapat saling terhubung, akan ditambahkan konfigurasi static ro
   route add -net 10.19.28.0 netmask 255.255.255.252 gw 10.19.32.2
   route add -net 10.19.24.0 netmask 255.255.255.248 gw 10.19.32.2
   ```
-  
-  - Flamme
+
+- Flamme
   ```
   route add -net 10.19.8.0 netmask 255.255.248.0 gw 10.19.0.2
   route add -net 10.19.24.0 netmask 255.255.255.248 gw 10.19.28.2
@@ -97,6 +97,10 @@ Agar semua subnet dapat saling terhubung, akan ditambahkan konfigurasi static ro
   ```
   route add -net 10.21.252.0 netmask 255.255.252.0 gw 10.21.248.3
   ```
+
+### Testing
+Untuk menguji keberhasilan konfigurasi routing, dalam GNS3 dapat dilakukan pengujian menggunakan perintah traceroute. Sebagai contoh, pada device SchwerMountains, dilakukan traceroute ke device RiegelCanyon yang memiliki alamat IP `10.21.252.3`. Proses ini dapat dijalankan dengan perintah `traceroute 10.21.252.3` pada device SchwerMountains, yang akan menghasilkan output:
+![test](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/d664680e-1c8e-463e-be9b-2356b94476ea)
 
 ## VLSM
 ## Topologi pada CPT
