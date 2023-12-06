@@ -38,7 +38,7 @@ Berdasarkan penghitungan, maka didapatkan pembagian IP sebagai berikut.
 ![ipcidr](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/f15e86c2-f5c8-4370-8f19-d8ddfb71210b)
 
 ### Routing
-Pada GNS3, routing dilakukan pada device router dengan perintah `route add -net <NID subnet> netmask <netmask> gw <IP gateway>`. Agar semua subnet dapat saling terhubung, akan ditambahkan konfigurasi static routing pada setiap router. Konfigurasi routing ini akan ditaruh ke dalam `/root/.bashrc` agar dapat dijalankan secara otomatis saat project diaktifkan. Konfigurasinya sebagai berikut:
+Agar semua subnet dapat saling terhubung, akan ditambahkan konfigurasi static routing pada setiap router dengan perintah `route add -net <NID subnet> netmask <netmask> gw <IP gateway>`. Konfigurasi routing ini akan ditaruh ke dalam `/root/.bashrc` agar dapat dijalankan secara otomatis saat project diaktifkan. Konfigurasinya sebagai berikut:
 
 - Aura
   ```
