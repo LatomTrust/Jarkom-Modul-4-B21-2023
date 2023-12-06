@@ -8,7 +8,7 @@
 | 2      | Cavel Ferrari                    | 5025211198 |
 
 ## Soal
-<img width="759" alt="image" src="https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/91776952/4236613b-43ce-491f-9a7f-7722f55ca87f">
+![soal](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/437cff70-a797-43b0-91f1-0487d1447505)
 Untuk mengerjakan modul 4, kami mengimplementasikan CIDR dengan menggunakan GNS3 dan VLSM dengan menggunakan CPT
 
 ## CIDR
