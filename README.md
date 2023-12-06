@@ -9,6 +9,7 @@
 
 ## Soal
 ![soal](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/437cff70-a797-43b0-91f1-0487d1447505)
+
 Untuk mengerjakan modul 4, kami mengimplementasikan CIDR dengan menggunakan GNS3 dan VLSM dengan menggunakan CPT
 
 ## CIDR
@@ -17,6 +18,7 @@ Untuk mengerjakan modul 4, kami mengimplementasikan CIDR dengan menggunakan GNS3
 
 ### Subnetting
 Teknik CIDR (Classless Inter-Domain Routing) didasarkan pada jumlah komputer atau host dalam suatu subnet. Berbeda dengan pendekatan tradisional, CIDR memungkinkan penggunaan subnet dengan panjang yang dapat disesuaikan, tidak terbatas pada kelas tertentu. CIDR memperoleh subnet besar dengan menggabungkan beberapa subnet kecil (agregasi), efisien dalam penggunaan alamat IP. Fleksibilitas ini meningkatkan efisiensi, mengurangi pemborosan, dan mendukung pertumbuhan jaringan yang dinamis.
+
 ![pp](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/b14434b4-b43b-41b0-8e17-d150eee59644)
 
 ### Rute dan Penggabungan
@@ -32,9 +34,11 @@ Teknik CIDR (Classless Inter-Domain Routing) didasarkan pada jumlah komputer ata
 
 ### Pembagian IP
 Langkah selanjutnya adalah hitung pembagian IP dengan tree berdasarkan penggabungan subnet yang telah dilakukan. Dari proses penggabungan yang telah dilakukan, didapatkan sebuah subnet besar dengan netmask /14. Kali ini dapat menggunakan NID `10.19.0.0` dengan netmask `255.252.0.0`. Prefix IP yang digunakan sesuai Prefix IP Kelompok, dalam hal ini kelompok B21 adalah `10.19`.
+
 ![CIDR_B21](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/edc2f61e-e25d-4594-a286-5b115ac55fac)
 
 Berdasarkan penghitungan, maka didapatkan pembagian IP sebagai berikut.
+
 ![ipcidr](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/f15e86c2-f5c8-4370-8f19-d8ddfb71210b)
 
 ### Routing
@@ -65,7 +69,7 @@ Agar semua subnet dapat saling terhubung, akan ditambahkan konfigurasi static ro
 - Frieren
   ```
   route add -net 10.19.0.0 netmask 255.255.255.252 gw 10.19.32.2
-  route add -net 10.19.8.0 netmask 255.255.248.0 gw 10.19.32.2\
+  route add -net 10.19.8.0 netmask 255.255.248.0 gw 10.19.32.2
   route add -net 10.19.16.0 netmask 255.255.252.0 gw 10.19.32.2
   route add -net 10.19.28.0 netmask 255.255.255.252 gw 10.19.32.2
   route add -net 10.19.24.0 netmask 255.255.255.248 gw 10.19.32.2
@@ -100,6 +104,7 @@ Agar semua subnet dapat saling terhubung, akan ditambahkan konfigurasi static ro
 
 ### Testing
 Untuk menguji keberhasilan konfigurasi routing, dalam GNS3 dapat dilakukan pengujian menggunakan perintah traceroute. Sebagai contoh, pada device SchwerMountains, dilakukan traceroute ke device RiegelCanyon yang memiliki alamat IP `10.21.252.3`. Proses ini dapat dijalankan dengan perintah `traceroute 10.21.252.3` pada device SchwerMountains, yang akan menghasilkan output:
+
 ![test](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/d664680e-1c8e-463e-be9b-2356b94476ea)
 
 ## VLSM
