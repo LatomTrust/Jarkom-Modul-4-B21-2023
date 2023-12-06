@@ -18,6 +18,8 @@ Tentukan subnet dari topologi, dengan metode VLSM.
 
 ### Rute dan Subnet Mask
 Tentukan subnet mask dari masing-masing subnet, dengan jumlah host yang dibutuhkan yang tercamtum di topologi.
+
+
 <img width="451" alt="image" src="https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/91776952/b7692b47-1602-4ae7-821d-da2f271f1b39">
 
 ### Konfigurasi IP
