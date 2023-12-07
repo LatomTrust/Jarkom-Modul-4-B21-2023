@@ -22,7 +22,8 @@ Teknik CIDR (Classless Inter-Domain Routing) didasarkan pada jumlah komputer ata
 ![pp](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/b14434b4-b43b-41b0-8e17-d150eee59644)
 
 ### Rute dan Penggabungan
-![rute](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/e369d722-a867-4462-aa3a-4c9961121700)
+<img width="488" alt="image" src="https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/91776952/507e02ff-e6b2-4c8a-8c1c-ed9bae1e1bbe">
+
 ![satu](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/3946a928-b2e0-4fba-9372-eeecf6532c25)
 ![dua](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/3af6e54a-020d-4f10-9659-1ecafe0b0833)
 ![tiga](https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/114276069/3decec00-57f2-4bba-bbfb-36afb0b86ac8)
@@ -117,7 +118,8 @@ Tentukan subnet dari topologi, dengan metode VLSM.
 Tentukan subnet mask dari masing-masing subnet, dengan jumlah host yang dibutuhkan yang tercamtum di topologi.
 
 
-<img width="451" alt="image" src="https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/91776952/b7692b47-1602-4ae7-821d-da2f271f1b39">
+<img width="488" alt="image" src="https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/91776952/1e7dd7d9-8245-4972-8914-7d52c269f00e">
+
 
 ### Konfigurasi IP
 Buat perhitungan dari subnet mask dari masing-masing subnet untuk menentukan pembagian konfigurasi IP.
