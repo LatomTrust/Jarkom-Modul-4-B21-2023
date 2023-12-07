@@ -163,6 +163,11 @@ Berdasarkan konfigurasi IP yang sudah didapatkan, gambarkan tree VLSM nya.
    <img width="522" alt="image" src="https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/91776952/a45f04c5-46cd-427f-b0e4-294c53d5ff04">
 
    Lakukan untuk semua subnet.
+
+   3) Testing
+   Contoh, dilakukan testing dari LakeKorridor ke Aura.
+<img width="551" alt="image" src="https://github.com/LatomTrust/Jarkom-Modul-4-B21-2023/assets/91776952/825bf9b4-e850-4708-bf0e-fe397bd0638f">
+
    
    
   
